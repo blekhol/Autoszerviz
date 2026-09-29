@@ -99,7 +99,7 @@ namespace Program
                 KilometerOra -= 10000;
                 UzemanyagSzint -= 10;
                 Console.WriteLine("A jármű szervizelése megtörtént");
-                //nem írja a feladat hogy a SzervizSzukseges false legyen
+                //nem írja a feladat hogy a SzervizSzukseges false legyen :)))
             }
         }
     }

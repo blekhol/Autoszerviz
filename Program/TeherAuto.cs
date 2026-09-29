@@ -39,7 +39,7 @@ namespace Program
         public override void Szervizel(int dij)
         {
             Rakomany = 0;
-            //nem írja a feladat, hogy ellenőrizni kell-e és returnölni, ha nem 0 vagy csak 0-ra kell állítani
+            //nem írja a feladat, hogy ellenőrizni kell-e és returnölni ha nem 0, vagy csak 0-ra kell állítani
             base.Szervizel(dij);
         }
     }
