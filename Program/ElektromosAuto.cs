@@ -41,9 +41,9 @@ namespace Program
             if (dij > 100000)
             {
                 KilometerOra -= 10000;
-                AkkumulatorSzint += 20;
-                Console.WriteLine("Jármű szervizelése megtörtént");
             }
+            AkkumulatorSzint += 20;
+            Console.WriteLine("Jármű szervizelése megtörtént");
         }
     }
 }

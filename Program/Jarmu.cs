@@ -97,10 +97,12 @@ namespace Program
             if (dij > 100000)
             {
                 KilometerOra -= 10000;
-                UzemanyagSzint -= 10;
-                Console.WriteLine("A jármű szervizelése megtörtént");
-                //nem írja a feladat hogy a SzervizSzukseges false legyen :)))
+                
             }
+
+            UzemanyagSzint -= 10;
+            Console.WriteLine("A jármű szervizelése megtörtént");
+            //nem írja a feladat hogy a SzervizSzukseges false legyen
         }
     }
 }
